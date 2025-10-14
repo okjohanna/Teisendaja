@@ -41,12 +41,12 @@ def main():
 
         if not octal:
             print((f'{RED}!! EMPTY INPUT. Please enter a valid octal number.\n'
-            f'Octal numbers only use digits 0-7. Example: 57, 123, 640\n{RESET}'))
+                   f'Octal numbers only use digits 0-7. Example: 57, 123, 640\n{RESET}'))
             continue
 
         if not is_valid_octal(octal):
             print((f'{RED}!! INVALID INPUT. Please enter a valid octal number.\n'
-            f'Octal numbers only use digits 0-7. Example: 57, 123, 640\n{RESET}'))
+                   f'Octal numbers only use digits 0-7. Example: 57, 123, 640\n{RESET}'))
             continue
 
         convert_octal_to_binary(octal)
